@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    padding: 2.3em;
+    border-radius: 0.5em;
+    max-width: 400px;
+}
+
+.card .site-title{
+    font-weight: bold;
+}

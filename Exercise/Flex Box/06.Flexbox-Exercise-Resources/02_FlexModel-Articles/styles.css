@@ -1,0 +1,16 @@
+html{
+    font:16px/1.5 Helvetica, sans-serif;
+}
+
+h2{
+    font: 25px/1.2 Georgia, serif;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    gap: 2em;
+    margin: 3em auto;
+}

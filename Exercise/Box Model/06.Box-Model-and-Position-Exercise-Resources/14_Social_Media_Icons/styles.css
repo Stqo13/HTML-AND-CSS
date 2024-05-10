@@ -1,0 +1,53 @@
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+
+svg{
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    padding: 0.3em;
+    transition: fill 0.3s ease-in;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: #ccc;
+    z-index: -1;
+}
+
+.facebook:hover path {
+    fill: #3b5998;
+}
+
+.twitter:hover path {
+    fill: #1da1f2;
+}
+
+.google:hover path {
+    fill: #db4437;
+}
+
+.linked-in:hover path {
+    fill: #0077b5;
+}
+
+.instagram:hover path {
+    fill: #e4405f;
+}

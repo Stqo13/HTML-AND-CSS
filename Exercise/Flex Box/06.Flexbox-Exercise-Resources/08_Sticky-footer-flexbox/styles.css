@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    padding: 2em;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    gap: 2em;
+}
+
+.site-header{
+    border-bottom: 2px solid black;
+}
+
+.site-title{
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    padding: 0;
+}
+
+.site-footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    flex-shrink: 0;
+    padding: 20px;
+}

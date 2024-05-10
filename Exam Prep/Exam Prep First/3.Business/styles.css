@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 "PT Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "PT Serif";
+}
+
+h1 {font-size: 2em;}
+h1 {font-size: 1.8em;}
+h1 {font-size: 1.6em;}
+h1 {font-size: 1.4em;}
+h1 {font-size: 1.2em;}
+h1 {font-size: 1em;}
+
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+}
+
+.container {
+     margin: 0 auto;
+     max-width: 1400px;
+     padding: 3em;
+}
+
+.column-container{
+    margin-bottom: 3em;
+}
+
+.site-section.banner {
+    padding-bottom: 12em;
+}
+
+.site-section.banner .container {
+    color: #FFF;
+}
+
+.site-section.banner h2 {
+    font-size: 3.4em;
+    font-weight: normal;
+    line-height: 1.26;
+    margin-bottom: 1rem;
+}
+
+.site-section.banner p {
+    font-size: 1.2em;
+    max-width: 39.5rem;
+}
+
+.stie-section{
+    padding: 2em;
+}
+
+.site-title a{
+    margin: 1.5em 1.5em;
+    display: block;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-section.site-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-section.site-header nav ul {
+    display: flex;
+    list-style: none outside;
+}
+
+.site-section.site-header a,
+.site-section.site-header ul li {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em;
+}
+
+.site-section.columns {
+    border-bottom: 2px solid #ccc;;
+    background: #fff;
+}
+
+.site-section.columns .column-container{
+    display: flex;
+    gap: 2em;
+}
+
+.column-container {
+    display: flex;
+    gap: 10em;
+}
+
+.column-container .button{
+    border: 3px solid #B0825C;
+    padding: 0.5em;
+    text-decoration: none;
+    color: #B0825C;
+}
+
+.column-container p {
+    padding-bottom: 2em;
+}
+
+.column-container h2{
+    padding-bottom: 1em;
+}
+
+.site-section.sponsors,
+.site-section.partners {
+    background: #fff;
+    text-align: center;
+}
+
+.site-footer {
+    color: #fff;
+    background-color: #010430;
+}
+
+.sponsors {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.sponsors li {
+    list-style: none outside;
+}
+
+.sponsors li {
+    display: block;
+    width: 9em;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    background: #eee;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.sponsors li a img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,23 @@
+header{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    margin-right: 20px;
+}
+
+header p{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 8px 5px 5px #000;
+}
+
+.site-section {
+    display: flex;
+    gap: 2em;
+    background-color: #85DCFF;
+    max-width: 1100px;
+    height: 600px;
+}
+
+.site-main{
+    margin-top: 10em;
+    padding-left: 2em;
+}
+
+.site-header{
+    padding-bottom: 0.5em;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.site-aside{
+    width: 370px;
+    height: 490px;
+    margin-top: 3em;
+    margin-right: 1.5em;
+}   
+
+.buttons{
+    display: flex;
+    gap: 2em;
+    padding-top: 2em;
+    list-style: none;
+}
+
+.site-main .content{
+    font-size: 16px;
+}
+
+.buttons li{
+    border: 2px solid #000;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4em;
+    background-color: #42AA59;
+}
+
+.buttons a{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    padding: 1.5em;
+    font-weight: bold;
+}
+
+.buttons .button-special{
+    background-color: white;
+}
+
+.buttons .button-hover:hover{
+    color: white;
+}
+
+.buttons li:nth-child(1):hover{
+    background-color: #000;
+}

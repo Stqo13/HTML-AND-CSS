@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 15vw;
+    height: 40rem;
+    gap: 0.5em;
+}
+.container span {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 1em;
+    width: 2em;
+    text-align: center;
+}
+
+.container span:nth-child(1) 
+{ 
+    order: 9; 
+}  /* H */
+.container span:nth-child(2) 
+{ 
+    order: 2; 
+ }  /* e */
+.container span:nth-child(3) 
+{ 
+    order: 10; 
+}  /* T */
+.container span:nth-child(4) 
+{ 
+    order: 4; 
+}  /* a */
+.container span:nth-child(5) 
+{ 
+    order: 8; 
+}  /* c */
+.container span:nth-child(6) 
+{ 
+    order: 7; 
+}  /* i */
+.container span:nth-child(7) 
+{ 
+    order: 11; 
+}  /* M */
+.container span:nth-child(8) 
+{
+    order: 5; 
+}  /* n */
+.container span:nth-child(9) 
+{ 
+    order: 6; 
+}  /* t */
+.container span:nth-child(10) 
+{ 
+    order: 12; 
+}/* L */
+.container span:nth-child(11) 
+{ 
+    order: 1; 
+} /* S */
+.container span:nth-child(12) 
+{ 
+    order: 3; 
+}/* m */
+

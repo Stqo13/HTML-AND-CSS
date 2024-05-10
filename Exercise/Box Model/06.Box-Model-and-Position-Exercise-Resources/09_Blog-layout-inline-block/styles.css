@@ -1,0 +1,48 @@
+
+body {
+    width: 1500px;
+    margin: auto;
+    background: rgb(238, 238, 238);
+}
+
+article, aside {
+    display: inline-block;
+    width: 700px;
+}
+
+aside {
+    vertical-align: top;
+}
+
+img {
+    max-width: 700px;
+}
+body{
+    font: 16px/1.5 Helvetica, sans-serif;
+    padding: 3em;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+.article-title {
+    color: #000;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+article header,
+article section,
+article footer,
+aside{
+    display: inline-block;
+}
+
+img{
+    height: 300px;
+}
+
+aside {
+    vertical-align: top;
+}
+

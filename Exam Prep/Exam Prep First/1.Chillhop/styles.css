@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 12px/1.5 Helvetica sans-serif;
+}
+
+body{
+    padding: 2em;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    margin:0 auto;
+    display: flex;
+    max-width: 840px;
+    border: 4px solid #000;
+    border-radius: 0.4em;
+    background-color: #1881B6;
+    padding: 2em;
+    gap: 2em;
+}
+
+.container .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5em;
+}
+
+.container .button{
+    color: #000;
+    font-weight: bold;
+}
+
+.container .site-main{
+    flex: 1 1 auto;
+    padding-top: 1em;
+} 
+
+.container .site-aside{
+    flex: 0 0 290px;
+}
+
+.container .button-special{
+    color: #fff;
+    font-weight: bold;
+    background-color: #B6416D;
+}
+
+.container .site-main .site-title{
+    padding-bottom: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container .site-main .site-header{
+    color: #fff;
+    line-height: 1;
+    font-size: 2.8em;
+    font-weight: normal;
+    padding-bottom: 1em;
+}
+
+.container .buttons a{
+    display: block;
+    width: 91px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 0.4em;
+    padding: 0.3em;
+}
+
+.container .site-main .content{
+    line-height: 2;
+    text-indent: 4em;
+}
